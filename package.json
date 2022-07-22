@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client":"cd frontend && npm run serve",
-    "server":"cd backend/src && node index",
-    "start":"concurrently npm:server npm:client"
+    "client": "cd frontend && npm run serve",
+    "server": "cd backend/src && nodemon index",
+    "start": "concurrently npm:server npm:client"
   },
   "repository": {
     "type": "git",
