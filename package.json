@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-clone",
+  "version": "1.0.0",
+  "description": "\"# Whatsapp-Clone\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client":"cd frontend && npm run serve",
+    "server":"cd backend/src && node index",
+    "start":"concurrently npm:server npm:client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imustafayasin/Whatsapp-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imustafayasin/Whatsapp-Clone/issues"
+  },
+  "homepage": "https://github.com/imustafayasin/Whatsapp-Clone#readme",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
